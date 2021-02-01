@@ -1,0 +1,16 @@
+It’s generally considered best practice to never reuse pseudonyms.
+This requires generating a new public and private key pair for every transaction you
+make.
+You want to do this so that it’s more difficult to determine how much bitcoin you own, and
+what you’ve been spending that bitcoin on.
+Also, imagine if you didn’t generate a new public and private key pair for every transaction,
+and you had all your funds associated with one identity.
+As soon as you lose the corresponding private key, all your funds are gone.
+It’s best practice to spread out your funds across multiple identities.
+After all your private keys are just random numbers -- there’s no relation between them
+-- so compromising one key is independent of the others.
+And public and private keys are computationally easy to generate anyways, so why wouldn’t
+you generate new public and private keys for every transaction?
+It’s a little effort that could potentially go along way in saving your Bitcoin user experience.
+Wallet software will generally handle this anyways, making it so much more easy to comply
+with best practices.

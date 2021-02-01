@@ -1,0 +1,8 @@
+As we’ve previously mentioned, Bitcoin is all about granting real-world entities virtual
+identities.
+Through these Bitcoin identities, we can easily authenticate ownership and send bitcoins between
+users.
+Also as mentioned previously, the private key is what unlocks a virtual identity.
+It’s what gives access to a Bitcoin address.
+But how do we actually protect these private keys?
+How do we make sure that we’re not subject to identity theft?

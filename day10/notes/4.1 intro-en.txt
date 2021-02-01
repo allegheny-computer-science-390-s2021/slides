@@ -1,0 +1,6 @@
+The first type of user we’ll be talking about is the most common Bitcoin user.
+Doesn’t have the entire blockchain downloaded, and doesn't need fancy functionality.
+Just a wallet to help manage keys, and this type of user can send and receive bitcoins
+with the rest of the network.
+As we’ll soon find out, wallets come in many different shapes and sizes -- hosted
+on the web, on your computer, digital, or physical.

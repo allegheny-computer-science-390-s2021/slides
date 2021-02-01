@@ -1,0 +1,7 @@
+We now know that wallets help manage your identity: your public and private keys.
+In the case of brain wallets and paper wallets, there’s not much else to say, since the
+idea behind them is simple: just write or print out a copy of your private key, or have
+some mnemonic or way to derive your private key.
+But when it comes to wallet software, it’s a bit more complex.
+In this section, we’ll be going into some wallet mechanics and how they enable the functionality
+in your favorite Bitcoin wallet app.

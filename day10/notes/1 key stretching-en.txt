@@ -1,0 +1,13 @@
+However, for the security minded, to further lessen the probability of someone being able
+to guess your brain wallet, you can employ what’s known as key stretching.
+There’s nowhere saying what hash function you have to use to get from your brain wallet
+to your private key, nor how many times you’re allowed to hash -- that’s all up to you
+as the user.
+The idea behind key stretching is to hash your brain wallet a large number of times:
+say 2^20 or some other huge number.
+So I take my set of words “multiply, scrap, submit, etc” and I…
+...Hash and hash and hash it….
+Not only will an attacker have to guess your initial set of words, but they would also
+have to guess how many times you hashed your set of words.
+Hacking a brain wallet that has been key stretched is exponentially harder to brute force than
+a brain wallet that is only hashed once.

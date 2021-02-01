@@ -1,0 +1,4 @@
+While we may primarily only think of miners or casual traders using exchanges or their
+own wallet software, there are actually a plethora of different types of Bitcoin users,
+each categorized by the different software that they run, and how they interface with
+the Bitcoin network.

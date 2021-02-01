@@ -1,0 +1,4 @@
+Some examples of hot wallets are smartphone apps such as Mycelium and AirBitz (I personally
+use AirBitz).
+There are also online web wallets such as those hosted on Blockchain.info and coinbase.com.
+And all these are connected to the internet.

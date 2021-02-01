@@ -1,0 +1,27 @@
+And after we have our public key hash, we’re just a little ways away from arriving at our
+Bitcoin address.
+The next step is to make our pub key hash a bit more human friendly.
+First, we add a version byte in front of our previous RIPEMD-160 hash from the last section
+In the version byte, we specify which network we’re on: the main Bitcoin network, or a
+smaller test network.
+We’ll save this for how and call it our extended RIPEMD-160 hash.
+We then run a Base58Check encode, which first involves converting what we have so far into
+base 58.
+Base 58 is an alphabet that’s like our usual 62 character alphabet.
+It has all single digits 0 to 9 and all upper and lower case letters, except for those that
+are hard to distinguish from one another.
+So we take out the 0 and capital letter O, and also capital “I” and lower case “l.”
+This is to avoid ambiguity when copying down your address.
+Then, we calculate a checksum.
+We perform SHA-256d on our extended RIPEMD-160 hash, running SHA-256 on it twice.
+We take the first 4 bytes of our SHA-256d hash as our checksum, and append it to the
+end of our extended RIPEMD-160 hash.
+After converting the result to base58, we finally have our Bitcoin address.
+As a recap, in our address, we have successfully encoded our public key hash, which allows
+people to pay us, a version byte that says what network we’re on, and also a checksum
+that accounts for human error.
+If someone types or copies down your address wrong, then the address would not be valid
+given the checksum.
+And this is something that decoding software will do for us.
+It can hash the beginning of our address and compare it with the checksum to see if it
+is valid.

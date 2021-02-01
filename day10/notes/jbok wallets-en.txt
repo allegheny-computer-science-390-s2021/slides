@@ -1,0 +1,16 @@
+Now if you’re complying with best practices and generating a new public and private key
+for every transaction you make, the natural question is: how do I manage an increasing
+number of keys?
+This is especially the case if you’re making frequent transactions.
+The number of keys you control can quickly become overwhelming.
+The traditional way to keep track of keys was through what are known as JBOK wallets,
+where JBOK is an acronym standing for “Just a Bunch of Keys.”
+The idea behind JBOK wallets was that after making every transaction, you would make a
+new backup of the new key pair you generate.
+Alternatively, you could also start off with a bunch of keys generated beforehand.
+However, after you use up all of these keys, you would still have the same issue of having
+to generate more keys.
+JBOK wallets aren’t too convenient because you have to store each and every key pair.
+Consider if you’re an exchange, and you have thousands of users trading constantly.
+You’d have to deal with so many keys, and even more back ups.
+That’d be pretty unmanageable.

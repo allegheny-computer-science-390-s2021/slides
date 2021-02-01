@@ -1,0 +1,44 @@
+ On the flip side, cold storage never touches the internet.
+ For example, there’s paper wallets, hardware wallets, and brain wallets.
+ Paper wallets are literally pieces of paper with your private key printed on it.
+ You can generate fancy paper wallets on websites such as Bitcoinpaperwallet.com and Bitaddress.org.
+ For maximum security, these websites will ask you to download the entire website and
+ run them locally, but only after shutting off your entire internet connection for maximum
+ security.
+ They also warn of smart printers that cache files that it prints, and operating systems
+ that might already be compromised.
+ In situations like these, users of paper wallets suggest using a dumber old fashioned printer,
+ and also dedicating an entire new, fresh computer just for the purpose of printing paper wallets.
+ This is how far some people take security.
+ There are also hardware wallets such as Ledger, Trezor, Case, and Keep Key, which are little
+ devices that plug into your computer or smartphone via USB or some other method and sign transactions
+ for you.
+ The idea is that while your computer may be connected to the internet, the hardware wallet
+ handles your private key and signs transactions in a trusted execution environment that runs
+ separately from your computer and never touches the internet.
+ And then there’s brain wallets.
+ So imagine a wallet that is so secure that it’ s practically impossible to hack. Online
+ web wallets might get hacked, your smartphone or hardware wallet might get stolen, or your
+ house might burn down and take with it your paper wallet.
+ Imagine a wallet that’s immune to all of these disasters AND more.
+ Well look no further than your brain, the most secure wallet of them all.
+ Simply memorize your private key.
+ Just kidding.
+ While it is possible to memorize your raw private key, an easier alternative would to
+ memorize a collection of words or phrases or a mnemonic.
+ The idea is to just have a more easily memorizable set of characters than your straight up private
+ key.
+ On the right , you can see that I’ve chosen a list of 12 words.
+ Multiply, scrap, submit, select, adjust, end, accuse, fuel, nose, hope, chair, afraid.
+ After I’ve chosen this set, I would then hash them together to get my private key.
+ This way, I can have the security of a brain wallet, having no physical evidence of my
+ private key and keeping everything in my head, and also get around memorizing my actual private
+ key.
+ However, there’s a catch.
+ Humans aren’t as random as we think, so the words someone chooses for their brain
+ wallet might easily be guessed -- such an attack is called a dictionary attack.
+ Dictionary attacks are especially dangerous to those who take their brain wallet words
+ from a famous quote from a speech or movie or book.
+ In general, so long as your words are not closely related, it’s still expensive and
+ improbable that someone would be able to guess and successfully dictionary attack your brain
+ wallet.

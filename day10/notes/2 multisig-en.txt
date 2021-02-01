@@ -1,0 +1,23 @@
+We mentioned multisignature in the previous module in regards to pay to script hash, but
+just to explain again and elaborate on its potential uses, we generalize, saying that
+multisig enables what are called M-of-N transactions.
+In simple terms, multisig is a way of cryptographically sharing a key between participants, and serves
+to distribute points of failure.
+Imagine if you want to share a wallet with your family, or even with yourself.
+For example, consider a 2-of-3 multisig.
+Imagine I have a 2 of 3 multisig with my friends Derrick and Gloria.
+Only two of us need to sign off on a transaction in order to send it.
+But no one can just run off with our bitcoin since you need at least two of three keys.
+And in this example, I have set up a two of three multisig with myself.
+Instead of losing my private key and then subsequently losing all of my funds, I have
+more than one point of failure.
+After losing one private key, i still have two of the three total keys, so I still have
+sufficient keys to access my funds in a 2-of-3 multisig scheme.
+As another example, some exchanges and software wallet companies provide 2-of-3 or 3-of-5
+multisig services.
+In the 2-of-3 multisig case, you keep two of your keys, and a trusted third party such
+as the company holds the third.
+The exchange can’t use your funds since they only have one key, but if you ever lose
+one of your keys, the company can step in and offer their key to help you recover your
+funds.
+As you can imagine, this works similarly for 3-of-5 or any other M-of-N multisig.

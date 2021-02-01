@@ -1,0 +1,23 @@
+In our previous discussions about Bitcoin mechanics, we explained everything from the
+perspective of a full node and miner: a user with networking capability to interface with
+the Bitcoin network, actively maintains a full up-to-date copy of the Bitcoin blockchain,
+has a wallet as a means to manage public and private keys, and mines to support the network
+and also to earn a mining reward.
+There’s a total of four functions: network routing, mining, maintaining a full blockchain,
+and handling wallet services, and our full node miner contains all of them.
+But normal clients don’t need all this functionality.
+For example, not every client is a miner.
+If my computer isn't fast enough, I won't be making a profit mining, so why bother?
+Not every client needs to have the entire blockchain.
+If I just want to send bitcoin through my phone, why would I want to have the 160 plus
+gigabyte blockchain downloaded?
+My phone doesn’t even have that much storage!
+Not every client even needs a wallet, especially if they don’t transact often.
+Say you’re just a full node hosting the entire blockchain, but have no interest trading
+yourself.
+Or you have a separate wallet software.
+And finally, as we’ll soon see, not every client needs to be connected to the Bitcoin
+network, or even the internet!
+In actuality, the distinction between different types of users isn’t just through these
+four main functionalities -- mining, routing, having a full blockchain, and key management
+through wallets -- but it does summarize a lot about the Bitcoin user experience.

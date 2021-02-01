@@ -1,0 +1,31 @@
+First off, let’s address the elephant in the room.
+How come when I use my wallet software, I don’t have to download the entire Bitcoin
+blockchain?
+Well, we have SPV to thank for that.
+SPV stands for Simple Payment Verification, and it’s a method for verifying if particular
+transactions (specifically your own transactions) are included in a block by only having to
+download the blockheaders of each block, instead of the entire block, which includes all the
+transactions.
+This is particularly useful for clients that are constrained by storage capacity, as they
+can now operate without storing the full blockchain.
+Imagine your typical Bitcoin smartphone wallet app.
+You don’t have the entire blockchain stored.
+Instead, you have a wallet, to keep track of your keys, and a network routing component
+that allows you to connect to the Bitcoin p2p protocol.
+This is all done without a full blockchain, and for this reason, clients that run SPV
+are called lightweight or thin clients.
+[SPV 2]
+In SPV, by having the block headers, you can simply run a merkle proof of inclusion, which
+we explained in the previous module in the tamper evident database section.
+One major assumption you have to make when using SPV is that incoming block headers are
+not from a false chain.
+If the block headers you receive are fake or invalid, then a transaction you see as
+valid may not actually be so, and someone could potentially double spend you!
+Thankfully, it’s generally ok to assume that incoming block headers are not from a
+false chain.
+As long as you connect to many different nodes, then the probability of each one being controlled
+by one malicious entity is significantly lowered.
+And as long as you’re connected to a variety of nodes, in the long term, the chain you
+see will be honest: a core assumption that we make in Bitcoin to begin with.
+And realistically, we can’t afford to put the entire blockchain on our phones or other
+lightweight devices, so having a thin client running SPV is a pretty decent tradeoff.

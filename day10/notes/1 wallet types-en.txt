@@ -1,0 +1,11 @@
+This is where wallets come in.
+The primary function of Bitcoin wallets is to keep track of your identity.
+Unlike how we use physical wallets to conveniently hold onto and store our physical money, our
+digital Bitcoin wallets don’t actually let us store bitcoins.
+Bitcoin wallets are simply a method of storing and accessing your private key, which then
+allows you to spend the corresponding bitcoin.
+Most wallet software will also store, send, receive, and list transactions for you, since
+it’s easy for software to do this but not necessarily for humans.
+It would be infeasible to manually keep track of all blockchain activity involving you.
+To take care of this, wallet software will store all relevant information about the blockchain
+on your behalf.

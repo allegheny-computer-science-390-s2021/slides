@@ -1,0 +1,52 @@
+We’ll start off by taking a look at one of the most fundamental ideas in Bitcoin:
+identity.
+We saw earlier that banks need to keep track of the accounts and identities of their customers.
+But how do we do this in Bitcoin, without a bank or central entity to keep track of
+who’s who and who owns what?
+
+In currencies, we need to ensure that all users can authenticate themselves through
+some identification method, and that all identification methods have integrity.
+Authentication is required to ensure that no one else acts on your behalf.
+Claiming, receiving, and spending money on your behalf are things that only you should
+be able to do.
+Like a bank, by associating yourself with your funds through authentication, you are
+able to receive money from others and spend your own money.
+Only you have access to your own money, since others are not authenticated to handle your
+money.
+Without an authentication process, anyone could spend my money, which is obviously undesirable.
+Additionally, authentication can also be used to enforce blaming.
+If someone tries to do something incorrect within the network, such as spend someone
+else’s funds, you want to be able to call them out with proof.
+For example, if someone tries to withdraw your funds from a bank, you would want a record
+of this, including the identity of who was trying to take your funds, to get rid of malicious
+activity in the future by banning or refusing to interact with those people.
+Integrity, the other half of identity, means that all our authentication methods cannot
+be replicated by anyone else.
+We can understand integrity by the process of signing a check: once you sign a check
+or transaction, no one should be able to intercept and/or manipulate it.
+The check has been signed by you, and since no one can replicate your signature, it should
+be tamper evident.
+Integrity ensures that no one but you, the signer, can use your signature.
+Imagine the following scenario in Bitcoin: If I wanted to send Alice 10 bitcoins, she
+shouldn’t be able to add another zero and make me send her 100 bitcoins.
+She also shouldn’t be able to copy or replicate my signature elsewhere.
+Only by preventing all these things can we trust the integrity of Bitcoin identities.
+Identity is a simple concept appearing everywhere in daily life.
+For example, houses have both addresses and mailbox keys.
+When you ask people to send you mail, you give away your address, so they know where
+to send the package to.
+Meanwhile, you alone control the mailbox key.
+Similarly, emails have aliases and passwords.
+People who want to send you email have access to your email address or alias, while you
+alone have access to the password to your email account, so only you can read these
+emails.
+Bitcoin, following this pattern, has both public keys and private keys.
+The items in orange on the left hand side -- mailbox addresses, email aliases, and public
+keys -- represent one’s public identity.
+They are what you give out to the public so that they know how to communicate with you,
+so that they know how to recognize and identify you.
+Meanwhile, the items on the right hand side in red -- mailbox keys, email passwords, and
+private keys -- are secret keys that you alone should own.
+With these personal keys, you access the orange items on the left.
+It gives you control and ownership.
+It gives you your identity.

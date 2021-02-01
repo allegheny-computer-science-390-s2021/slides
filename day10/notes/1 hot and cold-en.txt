@@ -1,0 +1,4 @@
+Wallets come in many forms.
+We generally make the distinction between two main categories of wallets -- hot and
+cold -- based on their connectivity to the internet.
+Hot wallets are connected to the internet, and cold storage is not.

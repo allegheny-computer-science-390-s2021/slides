@@ -1,0 +1,21 @@
+There’s a lot of wallets out there, definitely a lot more than what we’ve gone over, and
+that’s why users have to do their own research to find the wallet that’s best for them.
+For example, oftentimes you have to trade off between convenience and security.
+Coinbase.com is very easy to use, but they actually store your private keys on the cloud,
+and you never get to see it.
+Some people don’t like this because you’re putting trust in a powerful, trusted third
+party -- Coinbase in this case.
+However, others are willing to trade this for the convenience of having their bitcoin
+at their fingertips through an easy to use website.
+On the other hand, wallets like Mycelium and Electrum do not hold anyone’s private keys
+on the cloud.
+Users hold their own private keys and are responsible for their own funds.
+There’s no recourse from these services in case someone loses their private key.
+The benefit of course, is security, since no one else but you controls your private
+keys.
+However, it’s a huge responsibility and burden, especially for casual Bitcoin users.
+So at the end of the day, your choice of wallet is really up to you as an individual.
+Whether you’re more partial to convenience features such as payment via smartphones and
+QR codes, or fancy multisignature wallets, or go the extra mile to use a hardware wallet,
+print out a paper wallet, or memorize a brain wallet… it all boils down to your personal
+needs.

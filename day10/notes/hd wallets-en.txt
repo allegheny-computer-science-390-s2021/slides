@@ -1,0 +1,34 @@
+So instead of having just a bunch of keys, let’s try something a bit more clever.
+What if we could instead come up with a way of deriving keys from a original seed value?
+That’s the idea behind HD Wallets, or Hierarchical Deterministic wallets.
+So we start off with a randomly generated seed value.
+Instead of having to back up every single key from now on, we could just deterministically
+generate a new key pair, so long as we know our original seed.
+We can think of this seed as a master key.
+We first generate our master key, and for each subsequent key we want to generate, we
+can just just take the hash of the master key with some counter or index number, and
+then we’ll arrive at our derived child key.
+For example, if I want to generate my third child key, I would append 3 to my master key
+and hash the whole thing.
+We can think of the master key as being a parent key, and any keys that are generated
+from it are its child keys.
+And to make things more interesting, we can also use child keys as parent keys to generate
+even more child keys.
+By generating keys in a known way instead of randomly, we greatly lessen the load on
+wallets having to keep track of all your keys -- especially if you’re dealing with thousands
+of keys like exchanges do.
+Of course, exchanges can use HD wallets to greatly reduce their load, but HD wallets
+are also useful elsewhere.
+imagine an organization with a hierarchical structure.
+Imagine that we have the president control our master key.
+From the master key, we can generate child keys for each of the department heads.
+And from the keys of the department heads, we can generate child keys again for each
+of the department employees.
+Since keys are derived in a hierarchical fashion, someone controlling a parent key can derive
+a child key, and can thus spend from it.
+In our hierarchical organization, if everyone in the org were to have an HD wallet as previously
+defined, then the department heads could spend from the wallets of employees in their department,
+since the employees keys were generated from the department head’s keys.
+And the president would have the most power.
+Everyone’s key originates in some way from the president’s master key, so the president
+would be able to spend from everyone’s wallet.
